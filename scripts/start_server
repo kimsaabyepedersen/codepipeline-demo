@@ -1,3 +1,3 @@
 #!/bin/bash
-java8 -jar *.jar
+java8 -jar /home/ec2-user/*.jar
 
