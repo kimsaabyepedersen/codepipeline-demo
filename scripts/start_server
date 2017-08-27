@@ -1,2 +1,2 @@
 #!/bin/bash
-nohup java8 -jar /home/ec2-user/target/*.jar > file.out &
+nohup java8 -jar /home/ec2-user/target/*.jar > file.out 2>&1 &
