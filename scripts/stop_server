@@ -1,6 +1,7 @@
 #!/bin/bash
 isExistApp = `pgrep java`
 if [[ -n  $isExistApp ]]; then
-    kill $isExistsApp
+    echo "Killing process with id $isExistApp"
+    kill $isExistApp
 fi
 

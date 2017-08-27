@@ -1,3 +1,2 @@
 #!/bin/bash
-java8 -jar /home/ec2-user/target/*.jar &
-sudo service httpd stop
+nohup java8 -jar /home/ec2-user/target/*.jar > file.out &
